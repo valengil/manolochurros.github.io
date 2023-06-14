@@ -1,0 +1,772 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+  
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;}
+
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black}
+
+header{}
+
+.header div{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    padding: 0%;}
+
+.header div a{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    padding: 0%;
+    height: 3px;}
+
+.img-display{
+    display:block;
+    margin: auto;}  
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center ;
+    list-style-type: none;
+    width: 100%;}
+
+nav ul li{	
+    width: 100%;
+    height: min-content;
+    background-color: #46D5F8;
+    padding: 60px;
+    height: 2px;
+}
+
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;}
+
+    nav ul li a:hover{
+      color: white;}
+
+      .icon {
+        display: none;}
+
+        
+@media (max-width: 850px){
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center ;
+    list-style-type: none;
+    margin-top: 20px;
+    width: 100%;}
+
+nav ul li{	
+    width: 100%;
+    height: min-content;
+    background-color: #46D5F8;
+    padding: 20px;}
+
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;}}
+
+    @media (max-width: 600px){
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center ;
+    list-style-type: none;
+    margin-top: 20px;
+    width: 100%;
+  padding: 0px;}
+
+nav ul li{	
+    width: 100%;
+    height: min-content;
+    background-color: #46D5F8;
+    padding: 10px;}
+
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;}}
+ 
+    
+.medio{}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;}
+
+.slider {
+  display: flex;
+  width: 300%; 
+  animation: slide 9s infinite; }
+
+.slider img {
+  width: 33.33%;}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(0);
+  }
+  37.33% {
+    transform: translateX(-33.33%);
+  }
+  67.66% {
+    transform: translateX(-33.33%);
+  }
+  71.66% {
+    transform: translateX(-66.66%);
+  }
+  100% {
+    transform: translateX(-66.66%);
+  }}
+
+
+.abajo{
+background-color: beige;
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: space-between;
+justify-content: center;
+margin-top: 0px;}
+
+.abajo div{
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;}
+
+    @media (max-width: 950px) {
+
+      .img-display{
+        width: 60%;
+        display:block;
+         margin: auto;}  
+
+      .abajo {
+        flex-direction: column;}
+      
+      .abajo div {
+        flex-basis: 100%;
+        width: 70%;}}
+
+    @media (max-width: 700px) {
+
+
+      .img-display{
+        width: 60%;
+        display:block;
+         margin: auto;}  
+
+      .abajo {
+        flex-direction: column;}
+      
+      .abajo div {
+        flex-basis: 100%;
+        width: 70%;}
+
+      .abajo div a img{
+        flex-basis: 100%;}}
+    
+
+.abajo div a img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;}
+
+    .abajo div a form button{
+      background-color: red;
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      width: 150px;
+      height: 50px}
+
+      .abajo div a form button:hover{
+        background-color: #46D5F8;}
+
+    
+  
+    footer {
+        text-align: center;
+        background-color: #46D5F8;}
+      
+      .logo img {
+        width: 200px;
+        height: 100px;
+        height: auto;
+        margin-top: 30px;
+      }
+      
+      h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        color: black;
+      }
+      
+      .redes-sociales img {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;}
+
+
+
+
+
+.headersucursale{ margin-bottom: 100px;}
+
+.titulosucursales{
+  color: red;
+  background-color: beige;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-top: 0px ;} 
+
+.contenedorsucursales{
+    background-color: beige;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+    height: 600px}
+
+.direccionessucursales{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 50px;}
+
+.direccionessucursales p{
+    margin-top: 50px;
+    font-size: 25px;}
+
+.direccionessucursales h1{
+  color: red;
+  font-size: 35px;
+  margin-bottom: 80px;}
+  
+.columnatexto{
+    margin-top: 100px;
+    width: 50%;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-flow: column;}
+
+.columnamapa{
+    width: 50%;
+    float: left;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;}
+
+.mapaubic{ 
+    width: 100%;
+    float: right;
+    margin: auto;
+    height: 600px;
+    margin-top: 0px;}
+
+    @media (max-width: 950px) {
+      .columnatexto{
+      margin-top: 60px;
+      width: 50%;
+      float: right;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      color: black;
+      display: flex;
+      flex-flow: column;}}
+
+    @media (max-width: 850px) {
+      .contenedorsucursales{
+        background-color: beige;
+        flex-direction: column;
+        margin: auto;
+        height: 1200px}
+
+        .columnamapa{
+          width: 100%;}
+
+          .columnatexto{
+            margin-top: 50px;
+            width: 100%;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+            color: black;
+            display: flex;
+            flex-flow: column;}
+
+            .direccionessucursales p{
+              margin-top: 50px;
+              font-size: 22px;}
+
+            .direccionessucursales{
+              justify-items: center;
+              margin-left: 100px;
+              margin-top: 40px;
+              margin-bottom: 30px;
+              margin-right: 50px;}
+
+              .direccionessucursales h1{
+                color: red;
+                font-size: 35px;
+                margin-bottom: 80px;
+                justify-content: center;}}
+
+
+
+
+.titulocarta{ 
+    color: red;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;} 
+
+
+.img-display-carta{
+    display:block;
+    margin: auto;
+    height: 400px; 
+    width: 400px;}  
+
+#contenedor-menu {
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+  
+  #contenedor-menu > div {
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 15px;}
+
+  #contenedor-menu > div > h1 {
+    color: red;
+    margin-bottom: 25px;
+    margin-top: 25px;}
+    
+    #contenedor-menu > div > p {
+        margin-bottom: 15px;
+        margin-top: 10px;}
+ 
+        @media (max-width: 950px) {
+        
+        #contenedor-menu{
+          margin-top: 40px;
+          margin-left: 200px;
+          margin-bottom: 70px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;}
+
+          #contenedor-menu > div {
+            width: 100%;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            color: black;
+            padding: 15px;}}
+
+        
+        @media (max-width: 600px) {
+          #contenedor-menu{
+            margin-top: 40px;
+            margin-left: 90px;
+            margin-bottom: 70px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;}
+
+            #contenedor-menu > div {
+              width: 100%;
+              font-family: 'Raleway', sans-serif;
+              font-size: 20px;
+              color: black;
+              padding: 15px;}}
+  
+ 
+              
+
+
+.titulocontacto {
+        color:red;
+        font-size: 50px;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px ;
+        margin-bottom: 50px;} 
+
+        
+        .contacto {
+            display: flex;
+            margin-top: 80px;
+            font-size: 20px;
+            margin-bottom: 0px;
+            background-color:beige;
+            height: 650px;}
+
+          
+          .columna-izquierda {
+            flex-basis: 50%;
+            margin-left: 150px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;}
+          
+          .columna-derecha {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            flex-basis: 50%;}
+
+          .columna-izquierda h2{
+            text-align: center;
+            color: red;
+            font-size: 30px;}
+          
+         .columna-derecha h2 {
+            text-align: left;
+            color: red;
+            font-size: 30px;
+            margin-bottom: 90px;}
+
+          .columna-izquierda img {
+            width: 600px;
+            height: 400px;
+            margin-top: 40px;
+            margin-bottom: 30px;}
+          
+          .columna-izquierda p {
+            text-align: center;
+            margin-top: 10px;}
+          
+          form {
+            margin-right: 200px;
+            margin-top: 50px;}
+          
+          label {
+            display: block;
+            margin-bottom: 10px;
+            margin-top: 10px;}
+          
+          input,
+          textarea {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;}
+
+            .columna-derecha form button {
+              background-color: red;
+              font-family: 'Raleway', sans-serif;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              margin-top: 20px;
+            }
+
+          .columna-derecha form button:hover {
+            background-color:#46D5F8;
+          }
+
+          @media (max-width: 950px) {
+
+            .contacto{
+              display: flex;
+              flex-direction: column;
+              height: 1200px;
+              margin-bottom: 0px;}
+
+              .columna-izquierda {
+                justify-content: center;
+                align-items: center;
+                margin-left: 10px;}
+
+              .columna-izquierda img {
+                width: 90%;
+                height: auto;
+                margin-top: 40px;
+                margin-bottom: 30px;}
+
+                .columna-derecha{
+                  width: 100%;
+                  margin-bottom: 50px;
+                  margin-left: 100px;}}
+
+
+          @media (max-width: 600px) {
+
+              .columna-izquierda {
+                width: 100%;
+                margin-bottom: 0px;}
+
+                .columna-izquierda img {width: 90%;
+                margin-right: 20px;}
+
+                .columna-izquierda p {
+                  text-align: center;
+                  margin-top: 10px;
+                  font-size: 15px; }
+
+                 .columna-derecha{
+                  width: 100%;
+                  margin-left: 50px;
+                  margin-bottom: 20px;} }
+
+
+
+
+.titulotake{
+            color: red;
+            font-size: 50px;
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 80px;
+            margin-top: 50px ;} 
+
+            .seccion-compra {
+              text-align: center;}
+            
+            .fila-productos {
+              display: flex;
+              justify-content: center;
+              margin-bottom: 40px;}
+
+            .producto {
+              margin: 15px;}
+            
+            .producto img {
+              width: 325px;
+              height: 325px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0,2), 0 6px 20px 0 0 rgba(0, 0, 0, 0,19);
+              border-radius: 7px;
+              margin-left: 15px;
+              margin-right: 15px;}
+            
+            .producto h3 {
+              font-size: 18px;
+              margin-top: 20px;}
+            
+            .producto button {
+              background-color: red;
+              font-family: 'Raleway', sans-serif;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 10px;
+              margin-top: 20px;}
+
+
+              .producto button:hover{
+                background-color: #46D5F8;
+              }
+
+              #finalizar{
+                background-color: beige;
+              height: 600px;}
+
+              .pasosaseguir {
+                display: flex;
+                flex-direction: row;
+                margin-left: 200px;}
+
+                .formulariocompra{
+                  margin-top: 40px;
+                  width: 50%;}
+
+                  .formulariocompra button{
+                    background-color: red;
+                    font-family: 'Raleway', sans-serif;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 10px;
+                    margin-top: 20px;}
+
+                  .formulariocompra button:hover{
+                    background-color:#46D5F8;}
+
+                 .formulariocompra h1{
+                  color: red;
+                  font-size: 30px;}
+
+
+                  @media (max-width: 950px) {
+          
+                    .seccion-compra {}
+
+                    #finalizar{
+                      background-color: beige;
+                      height: 1000px;}
+                      
+                    .fila-productos{
+                      flex-basis: 100%;
+                      flex-direction: column;}
+      
+                      .pasosaseguir{
+                        flex-direction: column;
+                        width: 100%;
+                        margin-left: 90px;}
+
+                        .formulariocompra{
+                          margin-top: 40px;
+                          width: 90%;
+                          margin-right: 80px;}
+
+                          .mapasucursales{
+                          width: 100%;
+                          height: 900px;
+                          margin-bottom: 0px;
+                          height: auto;}
+
+                          .maparetiro{
+                            width: 150%;}}
+
+                            @media (max-width: 950px) {
+
+                              #finalizar{
+                                background-color: beige;
+                                height: 1050px;}}
+                   
+.mapasucursales{
+  margin-top: 40px;
+  margin-bottom: 0px;
+  width: 50%;}
+
+  .mapasucursales h1{
+    margin-bottom: 40px;
+    color: red;
+    font-size: 30px;}
+
+    .maparetiro{
+      height: 450px;}
+
+.gracias{
+  color: red;}
+
+.logogracias img{
+  margin-top: 250px;
+  height: 300px;}
+
+.graciaspormensaje{
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+
+  .graciaspormensaje h1{
+    margin-bottom: 20px;}
+
+  .graciaspormensaje button{
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;}
+
+    .graciaspormensaje button:hover{
+      background-color: #46D5F8;}
+
+
+
+
+
+
+      @media (max-width: 950px) {
+
+      .titulotake{
+        color: red;
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 50px ;}
+
+      
+        .titulocontacto{
+          color: red;
+          font-size: 40px;
+          font-family: 'Raleway', sans-serif;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 50px;
+          margin-top: 50px ;}
+
+          .titulosucursales{
+            color: red;
+            font-size: 40px;
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            margin-top: 50px ;}
+        
+          .titulocarta{
+            color: red;
+            font-size: 40px;
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            margin-top: 50px ;}}

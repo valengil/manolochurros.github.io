@@ -1,0 +1,93 @@
+<DOCTYPE!>
+<html lang="es">
+
+    <head>
+        <title>Manolo</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../estilos/Styles.css">
+
+</head>
+
+<body>
+  <header>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    </style>
+    <div class="header">
+    <img class="img-display"
+    src="../imagenes/Logo600x600px.png"  alt="Logo Manolo">
+    </img>
+</div>
+<a href="javascript:void(0)" class="icon" oneclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
+    <nav id="menu_bar">
+        <ul>
+            <li><a href="./menu.html">Menú</a></li>
+            <li><a href="./takeaway.html">Take Away</a></li>
+            <li><a href="./sucursales.html">Sucursales</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+
+<section class="medio">
+        <div class="slider-container">
+            <div class="slider">
+              <img src="../imagenes/IndexManolo.png" alt="Imagen 1">
+              <img src="../imagenes/pexels-brigitte-tohm-186859.jpg" alt="Imagen 2">
+              <img src="../imagenes/pexels-claudio-olivares-medina-4128504.jpg" alt="Imagen 3">
+            </div>
+          </div>
+</section>
+                 
+<section>    
+        <article class="abajo">
+            <div>
+                <a href="#">
+                    <img src="../imagenes/ManoloIzquierda.png" alt="Submarino">
+                    <form action="./menu.html">
+                    <button>Desayuná</button></form>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../imagenes/ManoloMedio.png" alt="Alfajor">
+                    <form action="./takeaway.html">
+                    <button>Llevá</button></form>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../imagenes/ManoloDerecha.png" alt="Sanguche">
+                    <form action="./menu.html">
+                    <button>Almorzá</button></form>
+                </a>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="logo">
+          <img src="../imagenes/Logo600x600px.png" alt="Logo">
+        </div>
+        <h3>SEGUINOS!</h3>
+        <div class="redes-sociales">
+          <img src="../imagenes/FacebookLogo.png" alt="Red social 1">
+          <img src="../imagenes/Captura_de_Pantalla_2023-05-23_a_la_s__16.13.18-removebg-preview.png" alt="Red social 2">
+          <img src="../imagenes/LogoInstagram.png" alt="Red social 3">
+        </div>
+      </footer>
+      
+
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "barratop") {
+            x.className += " responsive";
+          } else {
+            x.className = "barratop";
+          }
+        }
+    </script>
+</body>
+</html>

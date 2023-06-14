@@ -1,0 +1,85 @@
+       <DOCTYPE!>
+            <html lang="es">
+            
+                <head>
+                    <title>Contacto</title>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="../estilos/Styles.css">
+
+            
+            </head>
+            
+            <body>
+                <header>
+                    <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+                    </style>
+                    <div class="">
+                    <img class="img-display"
+                    src="../imagenes/Logo600x600px.png"  alt="Logo Manolo">
+                    </img>
+                </div>
+                <a href="javascript:void(0)" class="icon" oneclick="myFunction()"><i class="Menu Bar"></i></a>
+                    <nav id="menu_bar">
+                        <ul>
+                            <li><a href="./menu.html">Menú</a></li>
+                            <li><a href="./takeaway.html">Take Away</a></li>
+                            <li><a href="./sucursales.html">Sucursales</a></li>
+                            <li><a href="./contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                    </header>
+                <h1 class="titulocontacto">Queremos Conocerte</h1>
+
+                <section class="contacto">
+                  <div class="columna-izquierda">
+                    <h2>Sobre Nosotros</h2>
+                    <img src="../imagenes/FotoContacto.png" alt="Imagen sobre nosotros">
+                    <p> Brindamos la mejor calidad y experiencia desde 1930.</p>
+                  </div>
+                  <div class="columna-derecha">
+                    <h2>Dejanos tu Comentario!</h2>
+
+                    <form action="./gracias.html">
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" id="nombre" name="nombre" required>
+                
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                
+                      <label for="mensaje">Mensaje:</label>
+                      <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                      <button type="submit">Enviar</button>
+                    </form>
+
+                  </div>
+                </section>
+                
+                <footer>
+                  <div class="logo">
+                    <img src="../imagenes/Logo600x600px.png" alt="Logo">
+                  </div>
+                  <h3>SEGUINOS!</h3>
+                  <div class="redes-sociales">
+                    <img src="../imagenes/FacebookLogo.png" alt="Red social 1">
+                    <img src="../imagenes/Captura_de_Pantalla_2023-05-23_a_la_s__16.13.18-removebg-preview.png" alt="Red social 2">
+                    <img src="../imagenes/LogoInstagram.png" alt="Red social 3">
+                  </div>
+                </footer>           
+                
+                  
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "barratop") {
+            x.className += " responsive";
+          } else {
+            x.className = "barratop";
+          }
+        }
+    </script>
+    </body>
+
+</html>
